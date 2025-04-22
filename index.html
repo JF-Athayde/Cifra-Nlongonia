@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cifra da Nlongônia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <main>
+        <div id="inps">
+            <fieldset>
+                <legend>Cifra da Nlongônia</legend>
+                <form id="cifraForm">
+                    <label for="palavra">Texto para cifrar:</label>
+                    <input type="text" id="palavra" required />
+    
+                    <label for="alfabeto">Seu alfabeto:</label>
+                    <input type="text" id="alfabeto" value="abcdefghijklmnopqrstuvwxyz" required />
+    
+                    <label for="vogais">Vogais do seu alfabeto:</label>
+                    <input type="text" id="vogais" value="aeiou" required />
+    
+                    <button type="submit">Cifrar</button>
+                </form>
+    
+                <div class="resultado" id="resultado"></div>
+            </fieldset>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

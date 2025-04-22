@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inps {
+    background-color: rgba(15, 32, 39, 0.85);
+    border-radius: 16px;
+    padding: 3em;
+    width: 90%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+fieldset {
+    border: 2px solid #5ad2ff;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+legend {
+    padding: 0 10px;
+    color: #5ad2ff;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+label {
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    display: block;
+    margin-top: 15px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: #203a43;
+    color: #fff;
+}
+input[type = 'text']{
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #0078d7;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #005fa3;
+    transform: scale(1.05);
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-family: "Outfit", sans-serif;
+}
